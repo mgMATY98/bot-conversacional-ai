@@ -7,8 +7,6 @@ venv/
 __pycache__/
 *.py[cod]
 *$py.class
-# (Nota: requirements.txt se suele subir para que sepan 
-# qué librerías usa el proyecto, pero si preferís ocultarlo, dejalo comentado)
 # requirements.txt
 
 
