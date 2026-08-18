@@ -53,110 +53,117 @@ El proyecto está diseñado con una arquitectura modular que permite gestionar m
                                                     ▼
                                                WhatsApp
 ```
-##🛠️ Tecnologías
-###Backend
--Python
--FastAPI
--SQLAlchemy
--Pydantic
--JWT
--OpenAI API
+---
+## 🛠️ Tecnologías
 
-###WhatsApp
--Node.js
--JavaScript
--WhatsApp Web
--WhatsApp Cloud API
+### Backend
+* Python
+* FastAPI
+* SQLAlchemy
+* Pydantic
+* JWT
+* OpenAI API
 
-###Frontend
--React
--Vite
--JavaScript
--Axios
+### WhatsApp
+* Node.js
+* JavaScript
+* WhatsApp Web
+* WhatsApp Cloud API
 
-###Base de datos
--SQLAlchemy
--SQLite
+### Frontend
+* React
+* Vite
+* JavaScript
+* Axios
 
-##🔐 Seguridad
+### Base de datos
+* SQLAlchemy
+* SQLite
 
-###El proyecto implementa diferentes mecanismos relacionados con seguridad:
+---
 
--Autenticación mediante JWT
--Hashing de contraseñas
--Control de acceso
--Registro de autenticaciones
--Bloqueo por ip temporal a cierta cantidad de ingresos fallidos
--Auditoría de acciones
--Separación de configuraciones por cliente
--Variables de entorno para credenciales
--Exclusión de información sensible mediante .gitignore
+## 🔐 Seguridad
 
->No se incluyen credenciales, tokens, sesiones de WhatsApp ni bases de datos reales en este repositorio.
+El proyecto implementa diferentes mecanismos relacionados con seguridad:
 
-##🧠 Inteligencia Artificial
+* Autenticación mediante JWT
+* Hashing de contraseñas
+* Control de acceso
+* Registro de autenticaciones
+* Bloqueo por IP temporal ante una cantidad determinada de ingresos fallidos
+* Auditoría de acciones
+* Separación de configuraciones por cliente
+* Variables de entorno para credenciales
+* Exclusión de información sensible mediante `.gitignore`
 
-La plataforma utiliza inteligencia artificial para implementar asistentes conversacionales configurables.
+> **Nota:** No se incluyen credenciales, tokens, sesiones de WhatsApp ni bases de datos reales en este repositorio por motivos de seguridad y privacidad.
 
-La arquitectura permite separar:
+---
 
--Configuración del cliente
--Contexto del negocio
--Reglas de comportamiento
--Historial de conversaciones
--Conocimiento documental
--Servicios de IA
--Implementacion de ideas o mejoras captadas de manera automatica
--Simulacion de respuesta humana-
+## 🧠 Inteligencia Artificial
 
->Los detalles internos del sistema de prompts y determinadas reglas de negocio no forman parte de la versión pública del repositorio.
+La plataforma utiliza inteligencia artificial para implementar asistentes conversacionales configurables. La arquitectura permite separar:
 
-##💬 WhatsApp
+* Configuración del cliente
+* Contexto del negocio
+* Reglas de comportamiento
+* Historial de conversaciones
+* Conocimiento documental
+* Servicios de IA
+* Implementación de ideas o mejoras captadas de manera automática
+* Simulación de respuesta humana
 
-La plataforma contempla diferentes mecanismos de integración con WhatsApp.
+> *Los detalles internos del sistema de prompts y determinadas reglas de negocio específicas no forman parte de la versión pública del repositorio.*
 
-Actualmente la arquitectura incluye un gateway independiente encargado de manejar las comunicaciones y sesiones de WhatsApp.
+---
 
-También existe una arquitectura preparada para trabajar con WhatsApp Cloud API.
+## 💬 WhatsApp
 
-##📊 Panel administrativo
+La plataforma contempla diferentes mecanismos de integración con WhatsApp:
 
-El frontend incluye un panel administrativo para gestionar diferentes aspectos de la plataforma.
+* **Gateway independiente:** Arquitectura que incluye un servicio separado encargado de manejar las comunicaciones y las sesiones de WhatsApp.
+* **Soporte Cloud API:** Arquitectura preparada para trabajar de manera nativa con la API oficial de WhatsApp Cloud.
 
-Entre ellos:
+---
 
-###Clientes
--Estado de los bots
--Configuración
--Contactos
--Conversaciones
--Difusión de mensajes
--Información relacionada con WhatsApp
+## 📊 Panel Administrativo
 
-###Admin
--Estado de los clientes
--Eliminacion o adicion de clientes
--Activacion o desactivacion remota del bot
--Cambio entre wsp web y api oficial (en proceso)
+El frontend incluye un panel administrativo para gestionar diferentes aspectos de la plataforma:
 
-##🎯 Objetivo del proyecto
+### Gestión de Clientes
+* Estado de los bots
+* Configuración
+* Contactos
+* Conversaciones
+* Difusión de mensajes
+* Información relacionada con WhatsApp
+
+### Administración General
+* Estado de los clientes
+* Eliminación o adición de clientes
+* Activación o desactivación remota del bot
+* Cambio entre WhatsApp Web y API oficial *(en proceso)*
+
+---
+
+## 🎯 Objetivo del Proyecto
 
 El objetivo es desarrollar una plataforma reutilizable que permita implementar asistentes conversacionales para diferentes organizaciones sin necesidad de construir una aplicación independiente para cada cliente.
 
-La arquitectura busca separar:
+### Arquitectura general
 
-Cliente
-   │
-   ├── Configuración
-   ├── Conocimiento
-   ├── Conversaciones
-   └── Canal de comunicación
-             │
-             ▼
-      Motor conversacional
-             │
-             ▼
-       Servicio de IA
+```text
+Cliente 
+├── Configuración 
+├── Conocimiento 
+├── Conversaciones 
+└── Canal de comunicación 
+         │
+         ▼ 
+Motor conversacional 
+         │
+         ▼ 
+ Servicio de IA
 📌 Estado del proyecto
 
 🚧 Proyecto en desarrollo.
