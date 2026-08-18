@@ -1,0 +1,123 @@
+.conversation-item {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 16px;
+
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+    border-bottom: 1px solid #374151;
+
+}
+
+.conversation-item:hover {
+
+    background: #273548;
+
+}
+
+.conversation-item.active {
+
+    background: #334155;
+
+}
+
+.conversation-avatar {
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #2563eb;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    flex-shrink: 0;
+
+}
+
+.conversation-body {
+
+    flex: 1;
+
+    min-width: 0;
+
+}
+
+.conversation-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 6px;
+
+}
+
+.conversation-top strong {
+
+    font-size: 15px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+}
+
+.conversation-top small {
+
+    color: #9ca3af;
+
+    font-size: 12px;
+
+}
+
+.conversation-bottom {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.conversation-bottom span {
+
+    color: #cbd5e1;
+
+    font-size: 13px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
+    width: 100%;
+
+}

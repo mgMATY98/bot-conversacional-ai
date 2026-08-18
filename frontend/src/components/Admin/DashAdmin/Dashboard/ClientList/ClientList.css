@@ -1,0 +1,39 @@
+.client-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    margin-top: 30px;
+
+}
+
+.client-list-empty {
+
+    color: var(--text-secondary);
+
+    text-align: center;
+
+    padding: 30px 0;
+
+    font-size: 16px;
+
+}
+
+.client-list-actions {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+.client-list-actions .input-group {
+
+    width: 260px;
+
+}

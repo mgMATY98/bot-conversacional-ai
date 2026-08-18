@@ -1,0 +1,149 @@
+.behavior-section {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 24px;
+
+}
+
+.behavior-section h1 {
+
+    color: white;
+
+    font-size: 2rem;
+
+}
+
+.behavior-footer {
+
+    margin-top: 40px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.save-all-button {
+
+    min-width: 250px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px 20px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+}
+
+.save-all-button:hover {
+
+    background: #1d4ed8;
+
+}
+
+.save-all-button:disabled {
+
+    background: #475569;
+
+    color: #94a3b8;
+
+    cursor: not-allowed;
+
+}
+
+.status-warning {
+
+    color: #ff9800;
+
+    font-weight: 600;
+
+}
+
+.status-ok {
+
+    color: #4caf50;
+
+    font-weight: 600;
+
+}
+
+
+
+.behavior-form label {
+
+    color: #d1d5db;
+
+    font-weight: 600;
+
+}
+
+.behavior-form input {
+
+    background: #111827;
+
+    border: 1px solid #374151;
+
+    border-radius: 10px;
+
+    padding: 12px 16px;
+
+    color: white;
+
+    font-size: 15px;
+
+}
+
+.behavior-form input:focus {
+
+    outline: none;
+
+    border-color: #3b82f6;
+
+}
+
+.behavior-form button {
+
+    align-self: flex-end;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 12px 20px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+}
+
+.behavior-form button:hover {
+
+    background: #1d4ed8;
+
+}

@@ -1,0 +1,63 @@
+.auth-page {
+
+    width: 100vw;
+
+    height: 100vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr 450px;
+
+    background: var(--background);
+
+}
+
+.auth-left {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 80px;
+
+}
+
+.auth-left h1 {
+
+    font-size: 56px;
+
+    color: var(--text);
+
+    margin-bottom: 20px;
+
+}
+
+.auth-left p {
+
+    font-size: 20px;
+
+    color: var(--text-secondary);
+
+    max-width: 500px;
+
+    line-height: 1.6;
+
+}
+
+.auth-right {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 40px;
+
+    background: #172033;
+
+    border-left: 1px solid var(--border);
+
+}

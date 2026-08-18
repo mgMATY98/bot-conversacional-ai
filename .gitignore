@@ -1,0 +1,126 @@
+# ==========================================================
+# PYTHON
+# ==========================================================
+
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+# (Nota: requirements.txt se suele subir para que sepan 
+# qué librerías usa el proyecto, pero si preferís ocultarlo, dejalo comentado)
+# requirements.txt
+
+
+# ==========================================================
+# ENV / SECRETOS
+# ==========================================================
+
+.env
+.env.*
+!.env.example
+.tokens
+
+
+# ==========================================================
+# BASE DE DATOS
+# ==========================================================
+
+database.db
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ==========================================================
+# NODE / DEPENDENCIAS
+# ==========================================================
+
+node_modules/
+bot_whatsapp/node_modules/
+frontend/node_modules/
+
+
+# ==========================================================
+# WHATSAPP WEB / TOKENS Y SESIONES
+# ==========================================================
+
+.wwebjs_auth/
+.wwebjs_cache/
+bot_whatsapp/.wwebjs_auth/
+bot_whatsapp/.wwebjs_cache/
+bot_whatsapp/tokens/
+
+
+# ==========================================================
+# LOGS
+# ==========================================================
+
+*.log
+logs/
+
+
+# ==========================================================
+# IDE
+# ==========================================================
+
+.vscode/
+.idea/
+
+
+# ==========================================================
+# SISTEMA OPERATIVO
+# ==========================================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+Activacion.txt
+
+
+# ==========================================================
+# ALMACENAMIENTO / ARCHIVOS DE CLIENTES
+# ==========================================================
+
+storage/
+# ==========================================================
+# ARCHIVOS DE DESARROLLO / DOCUMENTACIÓN INTERNA
+# ==========================================================
+
+app/arbol_back.txt
+bot_whatsapp/tree_grande.txt
+frontend/src/components.zip
+frontend/src/estructura_completa.txt
+services/arbol_services.txt
+
+# ==========================================================
+# PROMPTS PRIVADOS
+# ==========================================================
+
+app/prompts/*.txt
+
+# ==========================================================
+# COMPONENTES PROPIETARIOS
+# ==========================================================
+
+# Motor principal de IA
+services/ai/chat_engine.py
+services/chat/chat_service.py
+
+# Sistema de conocimiento / RAG
+services/knowledge/
+services/document/
+
+# Sistema de ideas
+services/ideas/
+
+# Sistema de broadcasts
+services/broadcast/
+
+# Lógica principal de WhatsApp Web
+bot_whatsapp/src/services/message.service.js
+bot_whatsapp/src/services/session.service.js
+bot_whatsapp/src/services/broadcast.service.js
+
+# Prompts propietarios
+app/prompts/

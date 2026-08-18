@@ -1,0 +1,95 @@
+/* ===========================
+   LAYOUT GENERAL
+=========================== */
+
+.client-layout {
+
+    display: flex;
+
+    min-height: 100vh;
+
+    background: #f4f7fb;
+
+}
+
+/* ===========================
+   CONTENIDO
+=========================== */
+
+.client-content {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 0;
+
+    overflow: hidden;
+
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.client-main {
+
+    flex: 1;
+
+    padding: 32px;
+
+    overflow-y: auto;
+
+    background: #f4f7fb;
+
+}
+
+/* Scroll bonito */
+
+.client-main::-webkit-scrollbar {
+
+    width: 10px;
+
+}
+
+.client-main::-webkit-scrollbar-track {
+
+    background: transparent;
+
+}
+
+.client-main::-webkit-scrollbar-thumb {
+
+    background: #d1d5db;
+
+    border-radius: 20px;
+
+}
+
+.client-main::-webkit-scrollbar-thumb:hover {
+
+    background: #9ca3af;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 1000px) {
+
+    .client-layout {
+
+        flex-direction: column;
+
+    }
+
+    .client-main {
+
+        padding: 20px;
+
+    }
+
+}

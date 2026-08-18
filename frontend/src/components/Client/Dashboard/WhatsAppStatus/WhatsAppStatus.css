@@ -1,0 +1,67 @@
+.whatsapp-status {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-top: 15px;
+
+}
+
+.whatsapp-status-icon {
+
+    width: 70px;
+
+    height: 70px;
+
+    border-radius: 50%;
+
+    background: #ecfdf5;
+
+    color: #16a34a;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-shrink: 0;
+
+}
+
+.whatsapp-status-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+
+}
+
+.whatsapp-status-info strong {
+
+    font-size: 1.1rem;
+
+}
+
+.whatsapp-status-info span {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #666;
+
+}
+
+.whatsapp-status-info small {
+
+    color: #888;
+
+}

@@ -1,0 +1,27 @@
+.conversation-list {
+
+    background: #1f2937;
+
+    border-radius: 16px;
+
+    overflow: auto;
+
+    border: 1px solid #374151;
+
+}
+
+.conversation-list-header {
+
+    padding: 20px;
+
+    border-bottom: 1px solid #374151;
+
+}
+
+.conversation-list-header h2 {
+
+    color: white;
+
+    margin: 0;
+
+}

@@ -1,0 +1,38 @@
+from app.db.database import SessionLocal, Base, engine
+
+# Modelos
+from app.models.admin import Admin
+from app.models.client import Client
+from app.models.bot_config import BotConfig
+from app.models.contact import Contact
+from app.models.conversation import Conversation
+from app.models.idea import Idea
+from app.models.audit_log import AuditLog
+from app.models.bot_log import BotLog
+from app.models.login_log import LoginLog
+from app.models.ip_blocks import IPBlock
+from app.models.document import Document
+from app.models.whatsapp_connection import WhatsAppConnection
+from app.models.document_chunk import DocumentChunk
+from app.models.document_knowledge import DocumentKnowledge
+from app.models.broadcast import Broadcast
+from app.models.broadcast_recipient import BroadcastRecipient
+from app.models.whatsapp_cloud_connection import WhatsAppCloudConnection
+
+
+def init_db():
+
+    print("🛠️ Creando tablas...")
+
+    Base.metadata.create_all(bind=engine)
+
+    print("✅ Base de datos creada correctamente.")
+
+    db = SessionLocal()
+    db.close()
+
+    print("🚀 Inicialización finalizada()")
+
+
+if __name__ == "__main__":
+    init_db()

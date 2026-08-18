@@ -1,0 +1,240 @@
+.document-card {
+
+    background: white;
+
+    border-radius: 18px;
+
+    border: 1px solid #ececec;
+
+    padding: 22px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+    transition: .25s;
+
+}
+
+.document-card:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+
+}
+
+.document-top {
+
+    display: flex;
+
+    gap: 15px;
+
+    align-items: center;
+
+}
+
+.document-icon {
+
+    width: 54px;
+
+    height: 54px;
+
+    border-radius: 14px;
+
+    background: #eef4ff;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.document-title {
+
+    flex: 1;
+
+}
+
+.document-title h3 {
+
+    margin: 0;
+
+    font-size: 1rem;
+
+}
+
+.document-title span {
+
+    color: #777;
+
+    font-size: .85rem;
+
+}
+
+.document-summary {
+
+    color: #555;
+
+    font-size: .92rem;
+
+    line-height: 1.5;
+
+    max-height: 6em;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.document-info {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: .85rem;
+
+    color: #666;
+
+}
+
+.document-info div {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+}
+
+.document-status {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    width: max-content;
+
+    padding: 7px 12px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    font-size: .82rem;
+
+}
+
+.processed {
+
+    background: #dcfce7;
+
+    color: #15803d;
+
+}
+
+.processing {
+
+    background: #fef3c7;
+
+    color: #b45309;
+
+}
+
+.error {
+
+    background: #fee2e2;
+
+    color: #dc2626;
+
+}
+
+.uploaded {
+
+    background: #dbeafe;
+
+    color: #2563eb;
+
+}
+
+.document-actions {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.document-actions button {
+
+    flex: 1;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 11px;
+
+    cursor: pointer;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 7px;
+
+    transition: .2s;
+
+}
+
+.view-button {
+
+    background: #eef2ff;
+
+}
+
+.download-button {
+
+    background: #f3f4f6;
+
+}
+
+.delete-button {
+
+    background: #fee2e2;
+
+    color: #dc2626;
+
+}
+
+.document-actions button:hover {
+
+    opacity: .85;
+
+}
+
+.spin {
+
+    animation: spin 1s linear infinite;
+
+}
+
+@keyframes spin {
+
+    to {
+
+        transform: rotate(360deg);
+
+    }
+
+}

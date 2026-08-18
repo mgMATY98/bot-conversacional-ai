@@ -1,0 +1,11 @@
+.conversations-page {
+
+    display: grid;
+
+    grid-template-columns: 340px 1fr;
+
+    height: calc(100vh - 120px);
+
+    gap: 20px;
+
+}

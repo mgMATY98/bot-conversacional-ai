@@ -1,0 +1,99 @@
+.ai-summary-card {
+
+    margin-bottom: 30px;
+
+    border-left: 5px solid #2563eb;
+
+}
+
+.ai-summary-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    margin-bottom: 22px;
+
+}
+
+.ai-summary-icon {
+
+    width: 58px;
+
+    height: 58px;
+
+    border-radius: 50%;
+
+    background: #eff6ff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #2563eb;
+
+}
+
+.ai-summary-header h2 {
+
+    margin: 0;
+
+    font-size: 1.3rem;
+
+    font-weight: 700;
+
+}
+
+.ai-summary-header span {
+
+    display: block;
+
+    margin-top: 4px;
+
+    color: #6b7280;
+
+    font-size: .90rem;
+
+}
+
+.ai-summary-content {
+
+    background: #fafafa;
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+}
+
+.ai-summary-content p {
+
+    margin: 0;
+
+    white-space: pre-line;
+
+    line-height: 1.9;
+
+    color: #374151;
+
+    font-size: .98rem;
+
+}
+
+.ai-summary-loading {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #2563eb;
+
+    font-weight: 600;
+
+}

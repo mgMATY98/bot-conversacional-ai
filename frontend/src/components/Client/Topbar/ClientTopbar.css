@@ -1,0 +1,111 @@
+.client-topbar {
+
+    height: 78px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 0 34px;
+
+    background: white;
+
+    border-bottom: 1px solid #e5e7eb;
+
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .04);
+
+    z-index: 20;
+
+}
+
+.client-topbar-left h2 {
+
+    margin: 0;
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    color: #111827;
+
+}
+
+.client-topbar-left p {
+
+    margin: 4px 0 0;
+
+    color: #6b7280;
+
+    font-size: 14px;
+
+}
+
+.client-topbar-right {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+}
+
+.client-user {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 10px 16px;
+
+    background: #0a0a0a;
+
+    border-radius: 14px;
+
+    border: 1px solid #e5e7eb;
+
+}
+
+.client-user span {
+
+    font-weight: 600;
+
+}
+
+.logout-btn {
+
+    border: none;
+
+    background: #ef4444;
+
+    color: white;
+
+    padding: 12px 18px;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-weight: 600;
+
+    transition: .25s;
+
+}
+
+.logout-btn:hover {
+
+    background: #dc2626;
+
+    transform: translateY(-2px);
+
+}

@@ -1,0 +1,35 @@
+.behavior-card {
+
+    background: #1f2937;
+
+    border: 1px solid #374151;
+
+    border-radius: 16px;
+
+    padding: 24px;
+
+}
+
+.behavior-card-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-bottom: 24px;
+
+    color: white;
+
+}
+
+.behavior-form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+}

@@ -1,0 +1,95 @@
+.client-card {
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 18px;
+
+    padding: 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 24px;
+
+    transition: var(--transition);
+
+}
+
+.client-card:hover {
+
+    transform: translateY(-3px);
+
+}
+
+.client-card-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.client-card-header h3 {
+
+    color: var(--text);
+
+    margin-bottom: 8px;
+
+}
+
+.status {
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+.active {
+
+    color: var(--success);
+
+}
+
+.inactive {
+
+    color: var(--danger);
+
+}
+
+.client-card-body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+.info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: var(--text-secondary);
+
+}
+
+.client-card-actions {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 10px;
+
+}
