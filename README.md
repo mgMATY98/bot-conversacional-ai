@@ -1,4 +1,4 @@
-# Bot Conversacional Multicliente (demostracion al final del readme)
+# Bot Conversacional Multicliente (demostracion en la carpeta DemoMuestra)
 
 Plataforma de automatización conversacional orientada a empresas y organizaciones, con integración de inteligencia artificial, WhatsApp y un panel web de administración.
 
