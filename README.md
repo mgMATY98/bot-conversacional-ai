@@ -52,7 +52,7 @@ El proyecto está diseñado con una arquitectura modular que permite gestionar m
                                                     │
                                                     ▼
                                                WhatsApp
-
+```
 🛠️ Tecnologías
 Backend
 Python
